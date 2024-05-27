@@ -1,0 +1,82 @@
+@charset "ISO-8859-1";
+
+:root {
+  --primary: #197602;
+  --outline: #134906;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #000000;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*  */
+
+/* Login Section Start */
+.main-container {
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.bg-layer {
+  background: rgba(0, 0, 0, 0.8);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-container {
+  border: 3px solid #fff;
+  padding: 20px 40px;
+  border-radius: 10px;
+  width: 370px;
+  background-color: #0b3401;
+}
+.login-container header {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-container .field-2 {
+  position: relative;
+}
+.login-container .field-1 .bi-person,
+.login-container .field-2 .bi-file-lock {
+  font-size: 22px;
+  margin-right: 5px;
+}
+.login-container .field-1 input,
+.login-container .field-2 input {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 85%;
+}
+.login-container .field-2 .show {
+  cursor: pointer;
+  position: absolute;
+  right: 17px;
+}
+.login-container .field-3 {
+  margin-top: 20px;
+}
+.login-container .field-3 input {
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: 500;
+  background-color: #3a3d96;
+  color: #fff;
+}
+/* Login Section End */
